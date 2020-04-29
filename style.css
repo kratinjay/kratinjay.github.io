@@ -1,79 +1,41 @@
-body,
-html {
-    padding: none;
-    margin: none;
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 
-#main{
-    vertical-align: middle;
+#particles-js {
     height: 100%;
-    align-content: center;
-    align-items: center;
-    align-self: center;
-    margin: auto;
-    display: inline;
+    background: url(portfolioBG.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#nav {
-    font-size: 2.5rem;
-    font-family: 'Special Elite', cursive;
-    font-weight: 500;
-    background-color: #000000;
-    background: rgb(9, 59, 83, 1);
-    min-width: 100%;
-    padding: 0.75rem;
-    margin: 0;
+#bg {
+    background-color: rgba(128, 128, 128, 0.445);
 }
 
-#nav a {
-    color: #ffffff;
-    text-decoration: none;
+#header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    padding: 30px;
+    color: rgb(238, 238, 238);
 }
 
-img {
-    width: 20vmax;
-    margin: 1.5rem auto;
-    display: flex;
-    border-radius: 100vmax;
-    background: rgb(9, 59, 83, 1);
-    transition: all 0.5s ease;
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+.grow{
+    transition: all .4s ease-in-out;
 }
 
-img:hover {
-    transform: scale(1.05);
-    transition: all 0.5s ease;
-    border: solid 5px rgba(9, 59, 83, 1);
-    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+.grow:hover {
+    transform: scale(1.1);
 }
 
-h1{
-    color: rgba(9, 59, 83, 1);
+.mainDiv {
+    justify-content: center;
 }
 
-hr{
-    border: solid 0.5px rgba(9, 59, 83, 1);
-    border-radius: 5rem;
+hr {
     max-width: 75vw;
-}
-
-#icons a{
-    color: rgba(9, 59, 83, 1);
-    margin: 0 0.5rem;
-}
-
-#icons{
-    font-size: 2rem;
-    color: rgba(9, 59, 83, 1);
-}
-
-#footer{
-    color: #ffffff;
-    background: rgb(9, 59, 83, 1);
-    min-width: 100%;
-    padding: 0.75rem;   
+    margin: auto;
 }
