@@ -13,14 +13,14 @@
 #header {
     font-size: 28px;
     text-align: center;
-    color: rgb(224, 224, 224);
+    color: white;
     padding: 20px;
     text-shadow: 2px 2px 4px #000000;
 }
 
 #header a {
     text-decoration: none;
-    color: rgb(224, 224, 224);
+    color: white;
 }
 
 #header a:hover {
@@ -95,22 +95,23 @@ hr {
 /*contact page ends*/
 
 #about {
-    
-    padding-top:190px;
+
+    padding-top: 190px;
     padding-left: 50px;
     padding-right: 50px;
     justify-content: center;
     display: flexbox;
     text-align: center;
     font-size: 22px;
-    color:rgb(224, 224, 224);
+    color: rgb(224, 224, 224);
     text-shadow: 2px 2px 4px #000000;
 
 }
-#portfolio{
 
-    padding-top:280px;
-    color:rgb(224, 224, 224);
+#portfolio {
+
+    padding-top: 280px;
+    color: rgb(224, 224, 224);
     text-shadow: 2px 2px 4px #000000;
 
 }
@@ -143,7 +144,41 @@ img:hover {
     align-items: center;
     align-self: center;
     display: flex;
+    justify-content: center;
 }
+
+#but-div {
+    padding-top: 20px;
+}
+
+
+
+.button a {
+    text-decoration: none;
+    color: gray;
+}
+
+.button a:hover {
+    color: darkgrey;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: gray;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    
+}
+
 
 .mainDiv {
     justify-content: center;
@@ -153,26 +188,49 @@ h2 {
     margin-top: auto;
 }
 
-#icons a{
+#icons a {
     color: rgb(224, 224, 224);
     text-shadow: 2px 2px 4px #000000;
     font-size: 2.5rem;
     margin: 0 0.7rem;
 }
 
-#icons a:hover{
+#icons a:hover {
     color: white;
-    
+
 }
-footer {
+
+#footer {
     text-align: center;
-    justify-content: center;
+    bottom: 0px;
+    position: absolute;
     background-color: rgba(128, 128, 128, 0.445);
-    padding: 5px;
-    color:rgb(224, 224, 224);
+    padding: 8px;
+    color: rgb(224, 224, 224);
+    text-shadow: 2px 2px 4px #000000;
+    width: 100%;
+
+}
+
+
+#contact {
+    padding-top: 220px;
+    position: relative;
+}
+
+#contact hr {
+    max-width: 45vw;
+    margin: auto;
+    height: 5px;
+    color: white;
+
+}
+
+h3 {
+    color: rgb(224, 224, 224);
     text-shadow: 2px 2px 4px #000000;
 }
 
-.nav-link {
-    color: white important;
+h3:hover {
+    color: white;
 }
