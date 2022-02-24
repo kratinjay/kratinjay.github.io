@@ -1,0 +1,102 @@
+
+.footer-light a,
+.read-more_02,  
+.navigation ul li a,
+.portfolio-item-title,
+.irregular-grid-2-columns .portfolio-item-info,
+.portfolio-grid-2-columns .portfolio-item-info,
+.social-icons a,
+.contact-me-page,
+.navigation .sub-nav li a,
+.portfolio-item-category,
+.header-default .navigation ul li a {
+	color: #000;
+}
+
+.footer-light a:hover {
+	color: rgba(0, 0, 0, .7);
+}
+
+.open-nav i,
+.open-nav i:before,
+.open-nav i:after,
+.secondary-heading_02:before,
+.read-more_02:after,
+.secondary-heading_03 span:after {
+	background: #000;
+}
+
+.cta-block_04 h1,.cta-block_04 p{
+	color: #fff;
+}
+
+
+.footer-dark{
+	color: #777;
+}
+
+
+.header-inverse .navigation > ul > li > a,
+.footer-dark,
+.footer-dark a,
+.full-width-navigation a,
+.cta-block_04,
+.footer-minimal-inverse,
+.footer-minimal-inverse a,
+.irregular-grid-3-columns .portfolio-item-info,
+.portfolio-minimal-grid_01 .hero,
+.portfolio-grid-2-columns-style_02 .portfolio-item-info,
+.header, .share-links li:hover a
+{
+	color: #fff;
+}
+
+.header-inverse .navigation > ul > li > a:hover,
+.footer-dark a:hover,
+.footer-portfolio-metro a:hover {
+	color: rgba(255, 255, 255, .6);
+}
+
+.open-nav-inverse i,
+.open-nav-inverse i:before,
+.open-nav-inverse i:after,
+.full-width-navigation nav li a:after,
+.full-width-navigation .social-links a:hover:after,
+.portfolio-item .portfolio-item-overlay,
+.irregular-grid-2-columns .portfolio-item-overlay,
+.portfolio-grid-2-columns .portfolio-item-overlay,
+.btn:hover,
+.navigation .sub-nav {
+	background: #fff;
+}
+
+.full-width-navigation,
+.info-block_06 .read-more_02:after,
+.portfolio-minimal-grid_01,
+.portfolio-minimal-grid_01 .cta-block_04,
+.info-block_06 h1 a:hover:after,
+.about-me-info .read-more_02:hover:after,
+.footer-index {
+	background: #1b1b1b;
+}
+
+.irregular-grid-3-columns .portfolio-item-overlay,
+.portfolio-grid-2-columns-style_02 .portfolio-item-overlay {
+	background: #1b1b1b;
+}
+.read-more_02:hover{
+	color: white;
+}
+.info-block_06 .read-more_02,
+.social-icons a:hover,
+.about-me-info .read-more_02:hover,
+.navigation .sub-nav li a:hover,
+.header-default .navigation ul li a:hover {
+	color: #1b1b1b;
+}
+
+
+
+
+
+
